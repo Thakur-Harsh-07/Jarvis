@@ -13,8 +13,8 @@ import musicLibrary
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
-newsapi = "226814c0de644399b97d73b6e9e3db39"
-api_key = "17c8620a09e80a6c43adeacbabaae832"
+newsapi = "add api key"
+api_key = "add api key"
 
 def speak(text):
     tts = gTTS(text)
